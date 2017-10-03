@@ -1,0 +1,38 @@
+/**
+* Copyright (C) 2017-present silenter<silenter@126.com>
+*
+* This file is part of Sibase.
+*
+* Sibase is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License as published by the Free Software Foundation; either
+* version 2.1 of the License, or (at your option) any later version.
+*
+* Sibase is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with Sibase; if not, write to the Free Software
+* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+*
+* An additional grant of patent rights can be found in the PATENTS file
+* in the root directory of this source tree.
+*/
+package ${packageName}.service;
+
+import BaseService;
+import ${packageName}.pojo.${moduleName}Do;
+
+/**
+* ${moduleName}Service 层的接口基类。
+* <p>定义${moduleName}的的Service的接口</p>
+*
+* @author ${author}
+* @version 1.0
+* @date ${dateTime}
+*/
+public interface ${moduleName}Service extends BaseService<${moduleName}Do> {
+
+}

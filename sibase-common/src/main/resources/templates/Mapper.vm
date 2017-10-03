@@ -1,0 +1,43 @@
+/**
+* Copyright (C) 2017-present silenter<silenter@126.com>
+*
+* This file is part of Sibase.
+*
+* Sibase is free software; you can redistribute it and/or
+* modify it under the terms of the GNU Lesser General Public
+* License as published by the Free Software Foundation; either
+* version 2.1 of the License, or (at your option) any later version.
+*
+* Sibase is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+* Lesser General Public License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with Sibase; if not, write to the Free Software
+* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA.
+*
+* An additional grant of patent rights can be found in the PATENTS file
+* in the root directory of this source tree.
+*/
+package ${packageName}.mapper;
+
+import BaseMapper;
+import ${packageName}.pojo.${moduleName}Do;
+import ${packageName}.pojo.${moduleName}Dto;
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+/**
+* ${moduleName}的Mapper映射基础接口。
+* <p>实体Do模型与数据传输模型Dto及其他数据模型之间的自动映射转换</p>
+*
+* @author ${author}
+* @version 1.0
+* @date ${dateTime}
+*/
+@Mapper
+public interface ${moduleName}Mapper extends BaseMapper<${moduleName}Do, ${moduleName}Dto> {
+    ${moduleName}Mapper INSTANCE = Mappers.getMapper(${moduleName}Mapper.class);
+
+}
